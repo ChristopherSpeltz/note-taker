@@ -2,8 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const express = require("express");
 const PORT = process.env.PORT || 3001;
-// const { animals } = require("./data/db/db");
-const { notes } = require('./db/db');
+// const { notes } = require('./db/db');
 const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
 
