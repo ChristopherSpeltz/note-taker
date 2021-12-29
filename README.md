@@ -15,6 +15,8 @@ Note Taker is an application that can be used to write and save notes. The appli
 https://mighty-chamber-65785.herokuapp.com/
 
 ## ScreenShots
+![image](https://user-images.githubusercontent.com/37876358/147689038-e8de9390-4318-4f90-bffe-0b6125ae6e30.png)
+![image](https://user-images.githubusercontent.com/37876358/147689211-557ce89e-5f9f-45d1-8fe5-e40d9224274b.png)
 
 
 ## Contributors
