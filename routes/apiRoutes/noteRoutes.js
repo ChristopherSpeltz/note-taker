@@ -6,22 +6,18 @@ const { createNote, queryNote } = require("../../lib/notes");
 // const { animals } = require('../../data/animals');
 
 
-router.get("/notes", (req, res) => {
+router.get("/", (req, res) => {
     let results = notes;
     res.json(results);
 });
 
-router.post("/notes", (req, res) => {
+router.post("/", (req, res) => {
   // set id based on what the next index of the array will be
 //   req.body.id = animals.length.toString();
 
-  if (!queryNote(req.body)) {
-    res.status(400).send("The animal is not properly formatted.");
-  } else {
     const note = createNote(req.body, notes);
     res.json(note);
-  }
-  console.log(req.body);
+    console.log(req.body);
 });
 
 // router.get("/note", (req, res) => {
