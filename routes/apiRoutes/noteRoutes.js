@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { query } = require('express');
+// const { query } = require('express');
 const notes = require("../../db/db.json");
 const { createNote, queryNote } = require("../../lib/notes");
 // const { filterByQuery, findById, createNewAnimal, validateAnimal } = require('../../lib/animals');
